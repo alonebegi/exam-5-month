@@ -217,29 +217,113 @@ body
  .container{
     width: 100%;
     border: 1px solid grey;
-    display: flex;
-   justify-content: center;
  }
 
  /* casr 2 */
- .card2 {
-    width: 1110px;
-    display: flex;
-    justify-content: space-between;
+ .card-mark {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding-top: 128px;
 }
-.img-naushnik {
+
+.text-aboute{
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 44px;
+   letter-spacing: 1.4285714626312256px;
+   text-align: center;
+   color: white;
+   margin-top: 98px;
 }
-.think-aboute {
+
+.card-mark {
+   width: 100%;
+   /* border: 1px solid red; */
+   padding-top: 128px;
 }
-.new-product {
+.text-mark {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.12px;
+   letter-spacing: 10px;
+   text-align: left;
+   opacity: 50%;
+   color: #D87D4A;
+
 }
-.think-text {
+.p-mark {
+   width: 396px;
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 58px;
+   letter-spacing: 2px;
+   text-align: left;
+   color: black;
+   margin: 24px 0px;
 }
-.think-title {
-}
-.think-price {
-}
-.true-think-menu {
+.title-p-mark {
+   width: 349px;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 25px;
+   text-align: left;
+   color: black;
+   opacity: 75%;
+   margin-bottom: 40px;
 }
 .button {
+   padding: 15px 30px;
+   background-color: #D87D4A;
+   border: none;
+   margin-bottom: 108px;
+}
+
+.card2{
+   width: 1110px;
+   height: 560px;
+   top: 496px;
+   left: 165px;
+   gap: 0px;
+   opacity: 0px;
+   margin: 0px auto;  
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.img-quloqchn-card2 img {
+   width: 349.24px;
+   height: 386px;
+   top: 561.5px;
+   left: 259.88px;
+   gap: 0px;
+   opacity: 0px;
+   
+}
+.img-quloqchn-card2{
+   width: 540px;
+   height: 560px;
+   top: 496px;
+   left: 165px;
+   gap: 0px;
+   opacity: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 360px;
+}
+
+/* card 3 */
+.card3 {
+}
+.future-menu {
+}
+.future-text {
+}
+.future-title {
+}
+.boxses-menu {
+}
+.the-box-text {
+}
+.the-box-menu {
 }
